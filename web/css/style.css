@@ -1,0 +1,28 @@
+.glyphicon-arrow-left{
+	top:-4em;
+	left: 8em;
+	color: white;
+}
+.glyphicon-plus{
+	left:5em;
+}
+.glyphicon-floppy-disk{
+	left: 7em;
+}
+.glyphicon-remove{
+	left:9em;
+}
+.editHeadline{
+	text-align: left;
+	margin-left: 17em;
+}
+.title{
+	color: white;
+}
+.left{
+	text-align: left;
+	margin-left: 12em;
+}
+.red{
+	color: red
+}
