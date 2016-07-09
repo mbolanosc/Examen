@@ -1,3 +1,6 @@
+*{
+	margin: 0;
+}
 .glyphicon-arrow-left{
 	top:-4em;
 	left: 8em;
@@ -23,6 +26,10 @@
 	text-align: left;
 	margin-left: 12em;
 }
-.red{
-	color: red
+
+.blue{
+margin-left: 2em
+}
+.grey{
+	background-color: #D8D8D8;
 }

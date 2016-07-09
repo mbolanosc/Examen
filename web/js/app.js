@@ -1,4 +1,4 @@
-angular.module('inventory', ['EditModule','InventoryModule','NewModule', 'inventory.factories', 'ngRoute', 'firebase'])
+angular.module('inventory', ['EditModule','InventoryModule', 'inventory.factories', 'ngRoute', 'firebase'])
 
 .config(function($routeProvider){
 	$routeProvider
@@ -6,25 +6,18 @@ angular.module('inventory', ['EditModule','InventoryModule','NewModule', 'invent
 		templateUrl: "views/list.html"
 	})
 	/*
-	listar info 
+	listar y agregar
 	 */
 	.when('/products', {
 		templateUrl: "views/list.html",
 		controller: 'listCtrl as list'
 	})
 	/*
-	edit info y eliminar
+	editar
 	 */
 	.when('/product/:id', {
 		templateUrl: "views/detail.html",
 		controller: 'editController as product'
-	})
-	/*
-	agregar 
-	 */
-	.when('/new', {
-		templateUrl: "views/newform.html",
-		controller: 'newController as product'
 	})
 	.otherwise({
 		redirectTo: '/products'
